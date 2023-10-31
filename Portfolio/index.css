@@ -1,1 +1,28 @@
-/* Write your code below for PORTFOLIO */
+
+
+body {
+  background-color: lightblue;
+}
+p{
+  color: darkblue;
+  background-color: yello;
+}
+h1{
+  color: darkblue;
+  /* background-color: hotpink!important; */
+}
+h3{
+  color:darkblue !important;
+  /* background-color: hotpink !important; */
+}
+#secondpara{
+  color: blue;
+}
+  /* .bgblue{
+      color: rgb(227, 137, 137);
+      background-color: violet;
+  } */
+  ul li {
+      list-style-type: circle;
+  }
+
