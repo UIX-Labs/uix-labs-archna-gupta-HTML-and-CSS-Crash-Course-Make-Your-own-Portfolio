@@ -1,58 +1,27 @@
-/*  Start coding below for POSITION THE CUBES TASK*/
-.flexbox-container {
-  width: 300px;
-  height: 300px;
-  margin: 50%; 
-  background-color:blue;
-  flex-grow:3;
-  position: static;
- 
+
+body {
+  background-color: lightblue;
 }
-.flexbox-item-1{
-background: #19c474;
-width: 100PX;
-height: 100PX;
-align-self: center;
-position: relative;
-border: 2px solid white;
-
-} 
-.flexbox-item-2{
-  background: orange;
-  width: 100PX;
-  height: 100PX;
-  align-self: center;
-  margin-left: 67%;
-  margin-top: 33%;
-  border: 2px solid white;
-  
-  
+p{
+  color: darkblue;
+  background-color: yello;
 }
-.flexbox-item-3{
-background: yellow;
-width: 100px;
-height: 100px;
-align-self: center;
-position: relative;
-border: 2px solid white;
-
+h1{
+  color: darkblue;
+  /* background-color: hotpink!important; */
 }
-.flexbox-item-4{
-background:red;
-width: 50px;
-min-height: 50px;
-margin-left:110px;
-margin: bottom 100%;
-border: 2px solid white;
+h3{
+  color:darkblue !important;
+  /* background-color: hotpink !important; */
+}
+#secondpara{
+  color: blue;
+}
+  /* .bgblue{
+      color: rgb(227, 137, 137);
+      background-color: violet;
+  } */
+  ul li {
+      list-style-type: circle;
+  }
 
-} 
-.flexbox-item-5{
-  background: rgba(173, 9, 249, 0.772);
-  width: 100px;
-  height: 100px;
-  margin-bottom: 200%;
-  margin-right: 50%;
-
-  border: 2px solid white; 
-  order: 1;
-  } 
