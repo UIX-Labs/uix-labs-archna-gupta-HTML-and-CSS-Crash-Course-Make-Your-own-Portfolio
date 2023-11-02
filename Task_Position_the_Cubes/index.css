@@ -1,46 +1,58 @@
 /*  Start coding below for POSITION THE CUBES TASK*/
-.parent {
+.flexbox-container {
   width: 300px;
   height: 300px;
-  /* padding: 80px 50px;
-  padding-bottom: 80px;
-  padding: left 30px;;
-  border: 5px solid gray;
-  border-radius: 0px;*/
-  margin: 100px; 
-  background-color: #e42f68;
+  margin: 50%; 
+  background-color:blue;
+  flex-grow:3;
+  position: static;
+ 
 }
-.child-one {
-  background: red;
+.flexbox-item-1{
+background: #19c474;
 width: 100PX;
 height: 100PX;
-margin-left: 200px;
-margin: bottom:0cm;
+align-self: center;
+position: relative;
+border: 2px solid white;
+
 } 
-.child-two {
-  background: violet;
+.flexbox-item-2{
+  background: orange;
   width: 100PX;
   height: 100PX;
-  scroll: margin top 100px;
+  align-self: center;
+  margin-left: 67%;
+  margin-top: 33%;
+  border: 2px solid white;
+  
   
 }
-.child-three{
-  background: yellow;
+.flexbox-item-3{
+background: yellow;
 width: 100px;
 height: 100px;
-margin-bottom: 20px;
+align-self: center;
+position: relative;
+border: 2px solid white;
+
 }
-.child-four{
-background: blue;
+.flexbox-item-4{
+background:red;
 width: 50px;
-height: 50px;
-margin-bottom: 400px;
-scroll-margin-bottom: 200px;
+min-height: 50px;
+margin-left:110px;
+margin: bottom 100%;
+border: 2px solid white;
+
 } 
-.child-five{
-  background: rgb(151, 31, 206);
+.flexbox-item-5{
+  background: rgba(173, 9, 249, 0.772);
   width: 100px;
   height: 100px;
-  margin-bottom: 400px;
- scroll-margin-bottom: 200px;
+  margin-bottom: 200%;
+  margin-right: 50%;
+
+  border: 2px solid white; 
+  order: 1;
   } 
