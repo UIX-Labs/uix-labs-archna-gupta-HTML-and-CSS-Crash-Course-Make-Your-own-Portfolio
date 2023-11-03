@@ -1,46 +1,27 @@
-/*  Start coding below for POSITION THE CUBES TASK*/
-.parent {
-  width: 300px;
-  height: 300px;
-  /* padding: 80px 50px;
-  padding-bottom: 80px;
-  padding: left 30px;;
-  border: 5px solid gray;
-  border-radius: 0px;*/
-  margin: 100px; 
-  background-color: #e42f68;
+
+body {
+  background-color: lightblue;
 }
-.child-one {
-  background: red;
-width: 100PX;
-height: 100PX;
-margin-left: 200px;
-margin: bottom:0cm;
-} 
-.child-two {
-  background: violet;
-  width: 100PX;
-  height: 100PX;
-  scroll: margin top 100px;
-  
+p{
+  color: darkblue;
+  background-color: yello;
 }
-.child-three{
-  background: yellow;
-width: 100px;
-height: 100px;
-margin-bottom: 20px;
+h1{
+  color: darkblue;
+  /* background-color: hotpink!important; */
 }
-.child-four{
-background: blue;
-width: 50px;
-height: 50px;
-margin-bottom: 400px;
-scroll-margin-bottom: 200px;
-} 
-.child-five{
-  background: rgb(151, 31, 206);
-  width: 100px;
-  height: 100px;
-  margin-bottom: 400px;
- scroll-margin-bottom: 200px;
-  } 
+h3{
+  color:darkblue !important;
+  /* background-color: hotpink !important; */
+}
+#secondpara{
+  color: blue;
+}
+  /* .bgblue{
+      color: rgb(227, 137, 137);
+      background-color: violet;
+  } */
+  ul li {
+      list-style-type: circle;
+  }
+
