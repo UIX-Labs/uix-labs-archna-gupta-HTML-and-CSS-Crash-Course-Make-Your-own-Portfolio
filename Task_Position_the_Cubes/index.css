@@ -62,10 +62,4 @@ position:absolute;
   order: 1
   position: relative;
   } 
-  .flexbox-item-6{
-     background: rgba(181, 3, 59, 0.283); 
-     width: 100px; height: 100px;
-      margin-bottom: 500%%;
-       margin-right: 50%;
-     border: 2px solid white;
-     }
+  
