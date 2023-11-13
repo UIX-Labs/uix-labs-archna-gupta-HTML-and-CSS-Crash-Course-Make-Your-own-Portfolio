@@ -2,7 +2,7 @@
   display:grid;
   grid-template-rows: 200px 200px 200px;
   grid-template-columns: 200px 200px 200px;
-  background-color: #0f1113;
+  background-color: wheat;
   padding: 30px;
   gap:3px;
   }
@@ -11,42 +11,42 @@
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(173, 8, 8, 0.8);
+  background-color: red
   }
   .grid-item2 {
   text-align:center;
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(146, 8, 8, 0.8);
+  background-color: red;
   }
   .grid-item3 {
   text-align:center;
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(143, 4, 4, 0.8);
+  background-color: rgba(209, 36, 36, 0.8);
   }
   .grid-item4 {
   text-align:center;
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(234, 28, 28, 0.8);
   }
   .grid-item5 {
   text-align:center;
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(117, 8, 8, 0.8);
   }
   .grid-item6 {
   text-align:center;
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(157, 17, 17, 0.8);
   }
   .grid-item7 {
   text-align:center;
@@ -55,7 +55,7 @@
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: yellowgreen;
   }
   .grid-item8 {
   text-align:center;
@@ -63,7 +63,7 @@
   border: 1px solid rgba(17, 17, 17, 0.8);
   padding: 18px;
   font-size: 28px;
-  background-color: rgba(62, 202, 28, 0.8);
+  background-color: green;
   }
   .grid-item9 {
   text-align:center;
@@ -75,5 +75,5 @@
   grid-column-end: 3;
   margin-top: -71%;
   
-  background-color: rgba(59, 41, 223, 0.8);
+  background-color: blue;
   }
